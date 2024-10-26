@@ -6,9 +6,10 @@ import { StoryData } from '@/config/schema';
 import { desc, eq } from 'drizzle-orm';
 import StoryItemCard from './StoryItemCard';
 import CustomLoader from '@/app/create-story/_components/CustomLoader';
-import { div } from 'framer-motion/client';
 
-interface storyItemType{
+
+
+interface storyItemType {
     id: string;
     storySubject: string;
     storyType: string;

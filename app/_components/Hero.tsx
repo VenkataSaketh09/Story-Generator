@@ -8,7 +8,7 @@ function Hero() {
         <div className='grid grid-cols-1 md:grid-cols-2'>
             <div>
                 <h2 className='text-[70px] font-extrabold py-8 text-primary'>Craft Magical Stories for Kids in Minutes</h2>
-                <p className='text-2xl text-primary '>Create fun and personalised stories that bring your child's adventures to life and spark their passion for reading.</p>
+                <p className='text-2xl text-primary '>Create fun and personalised stories that bring your child&apos;s adventures to life and spark their passion for reading.</p>
                 <Link href={'/create-story'}>
                   <Button size='lg' color='primary' className='mt-9 font-bold text-[20px]'>Create Story</Button>
                 </Link>
